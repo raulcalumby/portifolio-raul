@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Raul Mota"
         />
         <img
           className={styles.colorMode}
@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Mota
         </h1>
-        <h2>Back-End Developer</h2>
+        <h2>Desenvolvedor Back-end</h2>
         <span>
           <a href="https://github.com/raulcalumby" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -50,11 +50,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Passionate about building scalable server-side applications with Node.js and Java.
+          Especialista em Back-End, comprometido em solucionar qualquer problema.
         </p>
 
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Currículo</button>
         </a>
       </div>
     </section>
